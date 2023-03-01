@@ -1,2 +1,3 @@
 # Transformer for Multi-Label Classification
-This .ipynb explores the use of an Encoder-only transformer model for the task of multi-label classification. In particular, classifying movie genres based off of their English description text.
+This GitHub repo explores the use of an Encoder-only transformer model for the task of multi-label classification. In the .ipynb we build an Encoder-only model in TensorFlow to classify movie genres given their English description text. The main advantage of using an Encoder-only transformer model for multi-label classification as opposed to recurrent neural networks or LSTMs is that Transformers can process variable-length input sequences and capture long-range dependencies without suffering from vanishing/exploding gradients. This makes Transformers particularly useful for natural language processing tasks such as text classification. 
+
