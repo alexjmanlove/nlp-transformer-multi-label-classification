@@ -5,3 +5,10 @@ This GitHub repo explores the use of the transformer architecture with an Encode
 
 The main advantage of using an Encoder-only transformer model for multi-label classification as opposed to recurrent neural networks or LSTMs is that Transformers can process variable-length input sequences and capture long-range dependencies without suffering from vanishing/exploding gradients. This makes Transformers particularly useful for natural language processing tasks such as text classification. 
 
+## Test Set Evaluation
+
+### Confusion Matrices
+![image](https://user-images.githubusercontent.com/79708390/230681669-9ff6507a-9842-4fc7-a20c-294a87d2316c.png)
+
+### Performance Metrics
+![image](https://user-images.githubusercontent.com/79708390/230681654-d9d698e0-64c4-45af-b25a-07fb3b472156.png)
