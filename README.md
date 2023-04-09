@@ -12,3 +12,7 @@ The main advantage of using an Encoder-only transformer model for multi-label cl
 
 ### Performance Metrics
 ![image](https://user-images.githubusercontent.com/79708390/230681654-d9d698e0-64c4-45af-b25a-07fb3b472156.png)
+
+### Examples
+
+![samples](https://user-images.githubusercontent.com/79708390/230747732-d8e16b50-9590-400d-a6d8-b768b622c9f7.png)
