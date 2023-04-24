@@ -10,13 +10,12 @@ The main advantage of using an Encoder-only transformer model for multi-label cl
 
 The final model achieved a 95% accuracy on the training set and accuracies of 91% and 90% on the validation and test sets. However, there is a severe class imbalance in the data. For this reason it is important to consider not only the accuracy but also other metrics such as precision and recall. 
 
-### Confusion Matrices
+### Confusion Matrices and Performance Metrics
 This figure shows the confusion matrices for each genre, with the total number of test observations in parentheses next to genre name.
 ![image](https://user-images.githubusercontent.com/79708390/233810521-e88918da-0e73-4f47-85f5-0fc9f2760cf4.png)
 
 As we can see the model has struggled to learn the features which properly distinguish the minority classes, and in particular failed to make any test predictions for Fantasy, History and Mystery. 
 
-### Performance Metrics
 ![image](https://user-images.githubusercontent.com/79708390/233810513-96aad71a-193a-4eb7-8ee7-259a939e3fa0.png)
 
 
