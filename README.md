@@ -5,12 +5,13 @@ This GitHub repo explores the use of the transformer architecture with an Encode
 
 The main advantage of using an Encoder-only transformer model for multi-label classification as opposed to recurrent neural networks or LSTMs is that Transformers can process variable-length input sequences and capture long-range dependencies without suffering from vanishing/exploding gradients. This makes Transformers particularly useful for natural language processing tasks such as text classification. 
 
-There is a severe class imbalance in the data. For this reason it is important to consider not only the accuracy but also other metrics such as precision and recall. 
-
 
 ## Test Set Evaluation
 
+The final model achieved a 95% accuracy on the training set and accuracies of 91% and 90% on the validation and test sets. However, there is a severe class imbalance in the data. For this reason it is important to consider not only the accuracy but also other metrics such as precision and recall. 
+
 ### Confusion Matrices
+This figure shows the confusion matrices for each genre, with the total number of test observations in parentheses next to genre name.
 ![image](https://user-images.githubusercontent.com/79708390/233810521-e88918da-0e73-4f47-85f5-0fc9f2760cf4.png)
 
 As we can see the model has struggled to learn the features which properly distinguish the minority classes, and in particular failed to make any test predictions for Fantasy, History and Mystery. 
