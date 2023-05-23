@@ -1,8 +1,6 @@
 # Transformer for NLP Multi-Label Classification
-
-<img align=left src="https://github.com/alexjmanlove/nlp-transformer-multi-label-classification/assets/79708390/992c2b8d-e334-4c66-bf50-73323bf41a58" height=250 width=250 /> 
-<img align=right src="https://github.com/alexjmanlove/nlp-transformer-multi-label-classification/assets/79708390/a73913c0-af84-4f1f-b8a9-aeace327149c" height=250 width=250 /> 
-
+<img align=left src="https://github.com/alexjmanlove/nlp-transformer-multi-label-classification/assets/79708390/a73913c0-af84-4f1f-b8a9-aeace327149c" height=250 width=250 padding=20 /> 
+<img align=right src="https://github.com/alexjmanlove/nlp-transformer-multi-label-classification/assets/79708390/992c2b8d-e334-4c66-bf50-73323bf41a58" height=250 width=250 margin=10 /> 
 
 One of the most iconic and influential machine learning papers of all time [Attention is All You Need (2019)](https://arxiv.org/abs/1706.03762) introduced the transformer architecture for sequence to sequence modelling.
 
